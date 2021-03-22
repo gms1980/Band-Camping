@@ -11,6 +11,13 @@ BandCamping is a one stop shop to search for your favorite bands, groups, and ar
 
 
 # Website
+ URL
+ https://gms1980.github.io/Band-Camping/
+
+ git repo
+ https://github.com/gms1980/Band-Camping
+
+ group repo
  https://github.com/ThomasKubant/bandcamping
 
 
