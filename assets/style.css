@@ -1,0 +1,158 @@
+.header {
+    background-color: rgb(83, 83, 83);
+    color: rgb(219, 32, 32);
+    text-align: center;
+    text-shadow: 2px 2px rgb(255, 38, 38);
+}
+body {
+    background-color: rgb(165, 165, 165);
+}
+input {
+    margin-bottom: 0px!important;
+}
+.button {
+    margin-bottom: 0px!important;
+}
+.search {
+    padding-right: 15px;
+}
+div#calendar {
+    width: 700px;
+    margin: 20px 60px;
+}
+.favoriteArtistsList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    list-style: none;
+}
+.favoriteArtistsList li {
+    color: rgb(219, 32, 32);
+    margin: 10px;
+    font-size: 1.5vw;
+    text-shadow: 2px 2px rgb(83, 83, 83);
+}
+.favoriteArtistHeader {
+    color: rgb(219, 32, 32);
+    text-shadow: 2px 2px rgb(83, 83, 83);
+    font-size: 2.5vw;
+    margin: 20px 0px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="grid-x"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="grid-x"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    [class*="grid-x"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    [class*="grid-x"] 
+    {
+      width: 100%;
+    }
+  }
+  /* Title Band Camping */
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="cell medium-8 headerText"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="cell medium-8 headerText"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    [class*="cell medium-8 headerText"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    [class*="cell medium-8 headerText"] 
+    {
+      width: 100%;
+    }
+  }
+  /* Calandar */
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="column medium-7"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="column medium-7"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    [class*="column medium-7"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    [class*="column medium-7"] 
+    {
+      width: 100%;
+    }
+  }
+  /* Favorites List */
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="column medium-5"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="column medium-5"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    [class*="column medium-5"] 
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    [class*="column medium-5"] 
+    {
+      width: 100%;
+    }
+  }

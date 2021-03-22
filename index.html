@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Camping</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://kit.fontawesome.com/b67fb896d0.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div class="grid-x header align-middle">
+        <div class="cell medium-8 headerText"><h1 style="text-align: left; padding-left: 15px;">Bandcamping</h1></div>
+        <div class="cell flex-container medium-4 align-right search">
+            <div class="medium-11">
+                <input type="text" placeholder="Search" id="artistSearch">
+            </div>
+            <div class="medium-1">
+                <button class="searchBtn button" id="searchBtn">S</button>
+            </div>
+        </div>
+    </div>
+    <div class="grid-x">
+        <div class="column medium-7">
+            <div id='calendar'></div>
+        </div>
+        <div class="column medium-5">
+            <h1 id="favoriteArtistHeader" class="favoriteArtistHeader">Your Favorite Artists</h1>
+            <div id="favoriteArtists" class="favoriteArtists"><ul id="favoriteArtistsList" class="favoriteArtistsList"></ul></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.5.1/main.min.js"></script>
+    <link href='fullcalendar/main.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.5.1/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.5.1/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+   
+
+</body>
+
+</html>

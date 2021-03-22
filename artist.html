@@ -1,0 +1,49 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style2.css">
+    <script src="https://kit.fontawesome.com/b67fb896d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="grid-x header align-middle">
+        <div class="cell medium-8 headerText"><a href="./index.html"><h1 style="text-align: left; padding-left: 15px;">Bandcamping</h1></a></div>
+        <div class="cell flex-container medium-4 align-right search">
+            <div class="medium-11">
+                <input type="text" placeholder="Search" id="artistSearch">
+            </div>
+            <div class="medium-1">
+                <button class="searchBtn button" id="searchBtn">S</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="grid-x artistHeader">
+            <div class="cell medium-3">
+                <h1 id="artistName"></h1>
+                <h2 id="artistGenre"></h2>
+            </div>
+            <div class="cell medium-1 favoriteBtn">
+                <button class="button" id="favBtn">Add to favorite artists</button>
+            </div>
+            <div class="cell medium-8 align-self-right">
+                <img class= "artistImg" id="artistImg">
+            </div>
+        </div>
+        <div class="grid-x artistBody">
+            <h1 id="artistBioHeader" class="artistBioHeader"></h1>
+            <p id="artistBio" class="artistBio"></p>
+        </div>    
+        <div class="grid-x"><h1 id="artistEventsHeader" class="artistEventsHeader">Events</h1></div>
+        <div class="grid-x"><ul id="artistEventsList" class="artistEventsList"></ul></div>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="./assets/script2.js"></script>
+</body>
+</html>
